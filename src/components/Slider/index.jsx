@@ -22,7 +22,7 @@ const Slider = () => {
     setValue(event.target.value);
   };
 
-  const handleMouseEnter = () => {
+  const handleMouseDown = () => {
     thumb.current.style.transition = "";
     level.current.style.transition = "";
   };
@@ -100,7 +100,7 @@ const Slider = () => {
           className={styles.input}
           onMouseUp={handleMouseUp}
           onChange={handleInputChange}
-          onMouseEnter={handleMouseEnter}
+          onMouseDown={handleMouseDown}
         />
       </div>
       <Text

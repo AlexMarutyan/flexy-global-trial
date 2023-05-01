@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="534749ea-5a0b-4d4f-bca8-18efb8948ea5" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/app.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Slider/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Slider/index.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Slider/styles.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Slider/styles.module.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,7 +60,7 @@
       <option name="presentableId" value="Default" />
       <updated>1682902172999</updated>
       <workItem from="1682902174220" duration="20955000" />
-      <workItem from="1682941727804" duration="12000" />
+      <workItem from="1682941727804" duration="2381000" />
     </task>
     <servers />
   </component>
