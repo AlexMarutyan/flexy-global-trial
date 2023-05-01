@@ -119,7 +119,7 @@ const Slider = () => {
           borderRadius="full"
         />
         <Text as="span" fontSize="16px" opacity={0.5} fontWeight="normal">
-          {prices[price].users} users
+          {prices[price].users} {price ? "users" : "user" }
         </Text>
       </Text>
     </>
