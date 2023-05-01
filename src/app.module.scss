@@ -27,3 +27,14 @@
   flex-direction: column;
   padding: 48px 32px 64px;
 }
+
+@media (max-width:720px){
+  .background {
+    width: 90%;
+  }
+  .wrapper{
+    padding: 48px 10px 64px;
+  }
+}
+
+
