@@ -1,12 +1,24 @@
-import app from "./app.module.scss";
 import Slider from "../src/components/Slider";
-import { Text } from "@chakra-ui/react";
+import { Box, Text, Center } from "@chakra-ui/react";
 
 function App() {
   return (
-    <div className={app.container}>
-      <div className={app.background}>
-        <div className={app.wrapper}>
+    <Center w="100vw" h="100vh">
+      <Box
+        p="2px"
+        h="80%"
+        borderRadius="24px"
+        w={{ base: "80%", lg: "50%" }}
+        backgroundImage="linear-gradient(#00cdfa,#705cf6 50%,#df56d2)"
+      >
+        <Center
+          h="full"
+          bg="#fff"
+          flexDir="column"
+          textAlign="center"
+          borderRadius="24px"
+          p={{ base: "48px 10px 64px", lg: "48px 32px 64px" }}
+        >
           <Text mb="20px" fontSize="24px" fontWeight="700">
             Long-form
           </Text>
@@ -30,9 +42,9 @@ function App() {
             Awesome tools to help you write blog posts, books, and more.
           </Text>
           <Slider />
-        </div>
-      </div>
-    </div>
+        </Center>
+      </Box>
+    </Center>
   );
 }
 
