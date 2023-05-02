@@ -1,5 +1,5 @@
 import { Text } from "@chakra-ui/react";
-import { useEffect, useRef, useState } from "react";
+import { useRef, useState, useLayoutEffect } from "react";
 
 import styles from "./styles.module.scss";
 
@@ -44,9 +44,10 @@ const Slider = () => {
     }
   };
 
-  useEffect(() => {
-    if (Math.round(value / 20) !== price) {
-      setPrice(Math.round(value / 20));
+  useLayoutEffect(() => {
+    const priceIndex = Math.round(value / 20);
+    if (priceIndex !== price) {
+      setPrice(priceIndex);
     }
   }, [value]);
 
@@ -119,7 +120,7 @@ const Slider = () => {
           borderRadius="full"
         />
         <Text as="span" fontSize="16px" opacity={0.5} fontWeight="normal">
-          {prices[price].users} {price ? "users" : "user" }
+          {prices[price].users} {price ? "users" : "user"}
         </Text>
       </Text>
     </>
