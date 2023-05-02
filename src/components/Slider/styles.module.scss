@@ -60,9 +60,11 @@
 .input {
   opacity: 0;
   width: 105%;
+  height: 24px;
   outline: none;
   cursor: pointer;
   appearance: none;
+  margin-top: -12px;
   margin-left: -2.5%;
   position: absolute;
   accent-color: transparent;
