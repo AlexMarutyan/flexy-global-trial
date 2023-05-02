@@ -32,8 +32,8 @@ const Slider = () => {
     const currentPosition = (currentValue / 20).toString();
     const numbersArray = currentPosition.split(".");
 
-    thumb.current.style.transition = "left  linear 0.3s";
-    level.current.style.transition = "width  linear 0.3s";
+    thumb.current.style.transition = "left  linear 0.4s";
+    level.current.style.transition = "width  linear 0.4s";
 
     if (!!numbersArray[1]) {
       if (numbersArray[1][0] < 5) {
